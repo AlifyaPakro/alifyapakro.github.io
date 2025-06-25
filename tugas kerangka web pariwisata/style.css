@@ -1,0 +1,172 @@
+h1 {
+  font-style: unset;
+  color: cornflowerblue;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+}
+
+nav .logo a {
+  color: aqua;
+  font-size: 7rem;
+  text-decoration: none;
+}
+
+nav .logo a span {
+  color: hwb(0 100% 0%);
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+nav .nav-links li {
+  margin: 2rem;
+}
+
+nav .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar .nav-links a:hover {
+  color: #f81212;
+}
+
+header {
+  display: block;
+  background-color: steelblue;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: #ffffff;
+}
+
+div .gambar3 {
+  margin: 15px;
+  display: inline-block;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 15px hsl(0, 0%, 25%);
+  margin-left: 7%;
+}
+
+div .gambar3:hover {
+  transform: scale(1.1);
+}
+
+div .gambar2:hover {
+  transform: scale(1.1);
+}
+
+div .gambar1:hover {
+  transform: scale(1.1);
+}
+
+div .download:hover {
+  transform: scale(1.1);
+}
+
+div .download9:hover {
+  transform: scale(1.1);
+  box-shadow: #333;
+}
+
+div .gambar2 {
+  margin: 15px;
+  display: inline-block;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 15px hsl(0, 0%, 25%);
+}
+
+div .gambar1 {
+  margin: 15px;
+  display: inline-block;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 15px hsl(0, 0%, 25%);
+}
+
+div .download {
+  margin: 15px;
+  display: inline-block;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 15px hsl(0, 0%, 25%);
+}
+
+div .download9 {
+  margin: 15px;
+  display: inline-block; /*untuk membentuk kotak keliling*/
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 15px hsl(0, 0%, 25%);
+  margin-left: 7%;
+}
+
+.photo {
+  display: block;
+  width: 300px; /* Ukuran gambar */
+  height: auto; /*ukuran gambar*/
+  border-radius: 10px; /* Sudut gambar juga melengkung */
+}
+
+div .bintang {
+  color: gold;
+}
+
+img {
+  margin: 10px;
+}
+
+.judul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  text-align: center;
+}
+
+.isi {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 200%;
+  text-align: center;
+}
+
+.suka span {
+  color: hsl(320, 100%, 50%);
+  margin: 1px;
+}
+
+footer {
+  background-color: #333;
+  padding: 5rem;
+}
+
+.akun {
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+table {
+  margin-left: 10%;
+}

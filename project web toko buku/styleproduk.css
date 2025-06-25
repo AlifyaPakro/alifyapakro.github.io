@@ -1,0 +1,38 @@
+body {
+  background-color: hwb(0 17% 83%);
+}
+
+nav {
+  display: flex;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  align-items: center;
+  background-color: #4d4d4d;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.logo a {
+  font-size: 5rem;
+  color: #ff2600;
+  text-decoration: none;
+}
+
+.logo span {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navbar a {
+  margin: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: brown;
+}
